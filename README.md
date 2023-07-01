@@ -42,11 +42,11 @@ pyhmtai is a Python library that serves as an API wrapper for hmtai, a service t
 You can install pyhmtai using pip:
 
 ```bash
-pip install pyhmtai
+pip install py_hmtai
 ```
 Here's a basic example of how to use pyhmtai:
 ```
-from pyhmtai import pyhmtai
+from py_hmtai import pyhmtai
 
 # Create an instance of pyhmtai
 hmtai = pyhmtai()
