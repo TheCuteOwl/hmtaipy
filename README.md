@@ -11,17 +11,17 @@ pip install hmtaipy
 ```
 Here's a basic example of how to use pyhmtai:
 ```
-from py_hmtai import pyhmtai
+from hmtaipy import pyhmtai
 
 # Create an instance of pyhmtai
 hmtai = pyhmtai()
 
 # SFW Example
-sfw_image = hmtai.sfw('hug').download()
+sfw_image = hmtai.sfw('hug') # OPTIONAL .download()
 print(f"SFW Image URL: {sfw_image}")
 
 # NSFW Example
-nsfw_image = hmtai.nsfw('hentai').download()
+nsfw_image = hmtai.nsfw('hentai') #OPTIONAL .download()
 print(f"NSFW Image URL: {nsfw_image}")
 ```
 
