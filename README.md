@@ -1,5 +1,7 @@
 # hmtaipy - Python API Wrapper for hmtai
 
+THERE WILL BE NO UPDATE Only if requested, if you want me to add something just open an issues
+
 pyhmtai is a Python library that serves as an API wrapper for hmtai, a service that provides random anime images based on various categories. This wrapper allows you to easily integrate hmtai functionality into your Python applications.
 
 ## Installation
